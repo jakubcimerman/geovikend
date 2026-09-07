@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#133D2E" />
+  <meta name="description" content="Stredoslovenský geovíkend 2027 – 29. mája 2027 v Banskej Bystrici." />
+  <title>Stredoslovenský geovíkend 2027</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Stredoslovenský geovíkend 2027 – domov">
+      <img src="assets/compass-transparent.png" alt="" aria-hidden="true" />
+      <span class="brand-name">STREDOSLOVENSKÝ<br>GEOVÍKEND <strong>2027</strong></span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Otvoriť menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="main-nav" id="main-nav" aria-label="Hlavná navigácia">
+      <a href="#o-evente" data-i18n="navAbout">O EVENTE</a>
+      <a href="#co-vas-caka" data-i18n="navProgramme">ČO VÁS ČAKÁ</a>
+      <a href="#mesto" data-i18n="navCity">BANSKÁ BYSTRICA</a>
+      <div class="language-switcher" aria-label="Jazyk">
+        <button class="language-current" type="button" aria-expanded="false">SK <span>⌄</span></button>
+        <div class="language-menu">
+          <button type="button" data-lang="sk">SK</button>
+          <button type="button" data-lang="en">EN</button>
+          <button type="button" data-lang="cs">CZ</button>
+          <button type="button" data-lang="de">DE</button>
+          <button type="button" data-lang="pl">PL</button>
+          <button type="button" data-lang="hu">HU</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="heroEyebrow">29. MÁJ 2027 · BANSKÁ BYSTRICA</p>
+          <h1 id="hero-title">
+            <span>STREDOSLOVENSKÝ</span>
+            <span>GEOVÍKEND</span>
+            <strong>2027</strong>
+          </h1>
+          <p class="hero-lead" data-i18n="heroLead">Víkend plný geocachingu v srdci Slovenska.</p>
+
+          <div class="countdown-wrap" aria-label="Odpočet do eventu">
+            <p class="countdown-kicker" data-i18n="countdownKicker">DO ZAČIATKU EVENTU</p>
+            <div class="countdown" id="countdown">
+              <div class="time-unit"><span id="days">000</span><small data-i18n="days">DNÍ</small></div>
+              <div class="time-unit"><span id="hours">00</span><small data-i18n="hours">HODÍN</small></div>
+              <div class="time-unit"><span id="minutes">00</span><small data-i18n="minutes">MINÚT</small></div>
+              <div class="time-unit"><span id="seconds">00</span><small data-i18n="seconds">SEKÚND</small></div>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#o-evente" data-i18n="discover">OBJAVTE GEOVÍKEND</a>
+            <a class="button button-ghost" href="#co-vas-caka" data-i18n="whatAwaits">ČO VÁS ČAKÁ?</a>
+          </div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#o-evente" aria-label="Posunúť nižšie">⌄</a>
+    </section>
+
+    <section class="intro section-dark" id="o-evente">
+      <div class="section-shell intro-grid">
+        <div>
+          <p class="section-kicker" data-i18n="heartKicker">STRETNEME SA V SRDCI SLOVENSKA</p>
+          <h2 data-i18n="introTitle">Príďte spoznať stredné Slovensko a užiť si víkend plný geocachingu.</h2>
+        </div>
+        <div class="intro-copy">
+          <p data-i18n="introText">V máji 2027 sa stretneme v Banskej Bystrici na veľkom stretnutí geocacherov zo Slovenska aj zo zahraničia. Hlavný event bude centrom celého víkendu, no zďaleka nebude jeho jedinou časťou.</p>
+          <div class="event-meta">
+            <div><span>29</span><strong data-i18n="monthMay">MÁJ 2027</strong></div>
+            <div><span>⌖</span><strong data-i18n="venue">AMFITEÁTER BANSKÁ BYSTRICA</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="co-vas-caka">
+      <div class="topo topo-two" aria-hidden="true"></div>
+      <div class="section-shell">
+        <p class="section-kicker dark" data-i18n="featuresKicker">JEDEN EVENT NÁM NESTAČÍ</p>
+        <div class="section-heading-row">
+          <h2 data-i18n="featuresTitle">ČO VÁS ČAKÁ?</h2>
+          <p data-i18n="featuresIntro">Program pre lovcov kešiek, zberateľov, súťaživé typy, milovníkov prírody aj všetkých, ktorí sa radi stretnú s ľuďmi, ktorých poznajú najmä podľa nickov.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card"><img src="assets/waypoint.webp" alt="" /><h3 data-i18n="cardGamesTitle">Hry a súťaže</h3><p data-i18n="cardGamesText">Geocachingové aj negeocachingové výzvy pre jednotlivcov i tímy.</p></article>
+          <article class="feature-card"><div class="text-icon">🔥</div><h3 data-i18n="cardFireTitle">Opekačka a posedenie</h3><p data-i18n="cardFireText">Čas odložiť GPSku, stretnúť starých známych a spoznať nových.</p></article>
+          <article class="feature-card"><img src="assets/cache.webp" alt="" /><h3 data-i18n="cardCachesTitle">Nové kešky a Adventure Lab</h3><p data-i18n="cardCachesText">Ďalšie dôvody vyraziť objavovať Banskú Bystricu a jej okolie.</p></article>
+          <article class="feature-card"><img src="assets/tower.webp" alt="" /><h3 data-i18n="cardTalksTitle">Prednášky a diskusie</h3><p data-i18n="cardTalksText">Geocachingové témy, skúsenosti, príbehy a zaujímaví hostia.</p></article>
+          <article class="feature-card"><div class="text-icon">🪵</div><h3 data-i18n="cardXwgTitle">Výmena xWG</h3><p data-i18n="cardXwgText">Priestor na výmenu drevených koliesok a rozšírenie zbierok.</p></article>
+          <article class="feature-card"><img src="assets/forest.webp" alt="" /><h3 data-i18n="cardNatureTitle">Von do prírody</h3><p data-i18n="cardNatureText">Spoločne vyrazíme objavovať prírodu v okolí Banskej Bystrice.</p></article>
+          <article class="feature-card feature-card-wide"><img src="assets/compass.webp" alt="" /><div><h3 data-i18n="cardSideTitle">Sprievodné eventy a ďalšie aktivity</h3><p data-i18n="cardSideText">Geocachingový program chceme rozložiť na celý víkend. Ďalšie stretnutia a aktivity budeme postupne predstavovať.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="city" id="mesto">
+      <div class="section-shell city-grid">
+        <div class="city-copy">
+          <p class="section-kicker" data-i18n="cityKicker">ZOSTAŇTE NA VÍKEND</p>
+          <h2 data-i18n="cityTitle">OBJAVTE BANSKÚ BYSTRICU</h2>
+          <p data-i18n="cityText">Historické centrum, mestské kešky, výhľady, lesy, kopce aj horské chodníky. Banská Bystrica je skvelým východiskovým bodom na objavovanie stredného Slovenska.</p>
+          <p class="big-quote" data-i18n="cityQuote">Príďte na event. Zostaňte na víkend. Objavte s nami srdce Slovenska.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="section-shell footer-inner">
+      <p><strong>STREDOSLOVENSKÝ GEOVÍKEND 2027</strong><br /><span data-i18n="footerDate">29. máj 2027 · Banská Bystrica</span></p>
+      <a href="#top" data-i18n="backTop">↑ HORE</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
