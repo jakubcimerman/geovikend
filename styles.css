@@ -709,56 +709,66 @@ h1 strong {
   .hero-copy {
     max-width: 100%;
     margin: 0 auto;
-    padding-top: 10px;
+    padding-top: 4px;
     transform: none;
     text-align: center;
   }
 
   .eyebrow {
     max-width: 350px;
-    margin: 0 auto 11px;
-    font-size: .70rem;
+    margin: 0 auto 8px;
+    font-size: .62rem;
     line-height: 1.5;
   }
 
   h1 {
     margin-bottom: 10px;
-    font-size: clamp(3rem, 14.2vw, 5.2rem);
+    font-size: clamp(1.6rem, 8vw, 3.2rem);
     line-height: .89;
   }
 
   .hero-lead {
-    max-width: 350px;
-    font-size: .98rem;
+    max-width: 290px;
+    font-size: .85rem;
     line-height: 1.32;
   }
 
   .countdown-wrap {
-    margin-top: 17px;
+    margin-top: 12px;
   }
 
   .countdown {
-    width: min(500px, 100%);
+    width: min(320px, 100%);
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 6px;
   }
 
   .time-unit {
-    padding: 11px 3px 10px;
+    padding: 8px 3px;
+    border-radius: 9px;
     background: rgba(15, 59, 43, .96);
   }
 
   .time-unit span {
-    font-size: clamp(1.9rem, 9.5vw, 3rem);
+    font-size: clamp(1.5rem, 6.5vw, 2rem);
   }
 
   .hero-actions {
-    max-width: 410px;
-    margin-top: 16px;
-    gap: 9px;
+    max-width: 320px;
+    margin-top: 12px;
+    gap: 7px;
+    flex-direction: row;
+    flex-wrap: nowrap;
   }
 
-  .button {
-    min-height: 48px;
+  .hero-actions .button {
+    flex: 1;
+    min-width: 0;
+    min-height: 44px;
+    padding: 6px 8px;
+    font-size: .6rem;
+    letter-spacing: .04em;
+    text-align: center;
   }
 
   .scroll-cue {
@@ -777,7 +787,7 @@ h1 strong {
   }
 
   h1 {
-    font-size: clamp(2.8rem, 13.9vw, 4.45rem);
+    font-size: clamp(1.6rem, 8vw, 2.8rem);
   }
 
   .countdown {
