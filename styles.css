@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Anton';
+  src: url('assets/fonts/Anton-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
 :root {
   --green-900: #133D2E;
   --green-700: #4E7A4F;
@@ -51,7 +59,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   line-height: .9;
 }
 .brand img { width: 45px; height: 48px; object-fit: contain; }
-.brand-name { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 1.02rem; }
+.brand-name { font-family: 'Anton', sans-serif; font-weight: 400; font-size: 1.02rem; }
 .brand-name strong { color: var(--orange); font-weight: inherit; }
 .main-nav { display: flex; align-items: center; gap: 30px; }
 .main-nav > a {
@@ -149,10 +157,10 @@ button, a { -webkit-tap-highlight-color: transparent; }
 h1, h2, h3 { margin-top: 0; }
 h1 {
   margin-bottom: 15px;
-  line-height: .88;
+  line-height: 1.12;
   letter-spacing: -.035em;
   font-size: clamp(4.4rem, 6.1vw, 7.1rem);
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Anton', sans-serif; font-weight: 400;
   color: var(--green-900);
 }
 h1 span, h1 strong { display: block; }
@@ -188,7 +196,7 @@ h1 strong {
 }
 .time-unit span {
   display: block;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Anton', sans-serif; font-weight: 400;
   color: var(--cream-2);
   font-size: clamp(2.2rem, 3.3vw, 3.75rem);
   line-height: .95;
@@ -282,16 +290,16 @@ h1 strong {
 .section-kicker { margin: 0 0 16px; color: #e7a15e; font-size: .75rem; }
 .section-kicker.dark { color: var(--brown); }
 .intro h2, .features h2, .city h2 {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Anton', sans-serif; font-weight: 400;
   font-size: clamp(2.9rem, 5vw, 5.6rem);
   letter-spacing: -.025em;
-  line-height: .96;
+  line-height: 1.18;
 }
 .intro h2 { max-width: 760px; margin-bottom: 0; }
 .intro-copy > p { margin-top: 3px; color: rgba(246,237,215,.78); font-size: 1.08rem; }
 .event-meta { display: grid; gap: 13px; margin-top: 32px; }
 .event-meta > div { display: flex; align-items: center; gap: 16px; padding-top: 14px; border-top: 1px solid rgba(246,237,215,.17); }
-.event-meta span { color: var(--orange); font-family: Impact, sans-serif; font-size: 2rem; min-width: 44px; text-align: center; }
+.event-meta span { color: var(--orange); font-family: 'Anton', sans-serif; font-weight: 400; font-size: 2rem; min-width: 44px; text-align: center; }
 .event-meta strong { font-size: .8rem; letter-spacing: .08em; }
 
 .features { position: relative; overflow: hidden; padding: clamp(80px, 9vw, 130px) 0; background: var(--cream-2); }
@@ -392,7 +400,7 @@ h1 strong {
   }
   .hero-copy { max-width: 100%; transform: none; text-align: center; }
   .eyebrow { max-width: 360px; margin: 0 auto 15px; font-size: .78rem; line-height: 1.6; }
-  h1 { font-size: clamp(3.6rem, 15.5vw, 6rem); line-height: .89; margin-bottom: 14px; }
+  h1 { font-size: clamp(3.6rem, 15.5vw, 6rem); line-height: 1.12; margin-bottom: 14px; }
   h1 span { white-space: normal; }
   .hero-lead { max-width: 360px; font-size: 1.05rem; line-height: 1.35; }
   .countdown-wrap { margin-top: 22px; }
@@ -479,7 +487,7 @@ h1 strong {
 
   h1 {
     font-size: clamp(4.0rem, 5.2vw, 5.75rem);
-    line-height: .90;
+    line-height: 1.12;
     margin-bottom: 14px;
   }
 
@@ -654,7 +662,7 @@ h1 strong {
 
   h1 {
     font-size: clamp(3.9rem, 5vw, 5.65rem);
-    line-height: .89;
+    line-height: 1.12;
     margin-bottom: 14px;
   }
 
@@ -724,7 +732,7 @@ h1 strong {
   h1 {
     margin-bottom: 10px;
     font-size: clamp(1.6rem, 8vw, 3.2rem);
-    line-height: .89;
+    line-height: 1.12;
   }
 
   .hero-lead {
