@@ -170,6 +170,15 @@ h1 strong {
   font-size: .88em;
   margin-top: 3px;
 }
+.hero-gc-code {
+  margin: 0 0 12px;
+  color: var(--green-900);
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-size: clamp(1.4rem, 3.5vw, 2.2rem);
+  line-height: 1.2;
+  letter-spacing: .08em;
+}
 .hero-lead {
   margin: 0 auto;
   max-width: 620px;
@@ -766,17 +775,21 @@ h1 strong {
     margin-top: 12px;
     gap: 7px;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
   }
 
   .hero-actions .button {
-    flex: 1;
+    flex: 1 1 calc(50% - 7px);
     min-width: 0;
     min-height: 44px;
     padding: 6px 8px;
     font-size: .6rem;
     letter-spacing: .04em;
     text-align: center;
+  }
+
+  .hero-actions .button-listing {
+    flex: 0 1 calc(50% - 4px);
   }
 
   .scroll-cue {
